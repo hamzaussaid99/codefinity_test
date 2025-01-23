@@ -11,6 +11,7 @@ const BlogComponent = ({ title, description, image, rating }: Blog) => {
         alt={title}
         width={400}
         height={250}
+        priority
         imageClassName="w-full h-60"
         wrapperClassName="w-full"
       />

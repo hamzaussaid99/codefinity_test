@@ -13,14 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Codefinity",
+  title: "Codefinity Solutions",
   description: "Empowering Businesses with Seamless IT Solutions",
-  openGraph: {
-    type: "website",
-    title: "Codefinity",
-    description: "Empowering Businesses with Seamless IT Solutions",
-    images: "/images/og-image.jpeg",
-  },
   twitter: {
     card: "summary_large_image",
   },
