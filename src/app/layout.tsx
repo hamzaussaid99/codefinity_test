@@ -13,8 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: process.env.BASE_URL
+    ? new URL(`${process.env.BASE_URL}`)
+    : null,
   title: "Codefinity Solutions",
   description: "Empowering Businesses with Seamless IT Solutions",
+  openGraph: {
+    images: "/opengraph-image.jpeg",
+  },
   twitter: {
     card: "summary_large_image",
   },
